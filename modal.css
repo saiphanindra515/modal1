@@ -1,0 +1,90 @@
+body {
+	height:100%;
+	width:100%;
+	font-family: sans-serif;
+}
+.overlay  {
+position:absolute;
+height : 100%;
+width : 100%;
+background-color : rgba(0,0,0,0.6);
+z-index: 1;
+top:0;
+bottom: 0;
+left:0;
+right:0;
+z-index: 1;
+}
+.fornt {
+	font-size : 800px;
+}
+ .button1 {
+ 	position: absolute;
+ 	z-index: -1;
+ }
+ .modalDesign {
+ 	position: absolute;
+ 	z-index: 2;
+  height:auto;
+  width:450px;
+ margin-left: 30%;
+ margin-top: 5%; 
+
+  border:1px solid lightgrey;
+  background-color: white;
+  border-radius: 5px;
+
+ }
+ .modalHeader{
+ 	padding :1%;
+ 	height :auto;
+ 	width:100%;
+ 	border-bottom: 1px solid lightgrey;
+ 	 border-radius: 5px;
+
+ }
+ .modalbody {
+ 	padding: 1%;
+ 	height: auto;
+ 	border-bottom  : 1px solid lightgrey;
+ }
+ .modalfooter{
+ 	padding:2%;
+ }
+ .save {
+ 	width:70px;
+ 	height: 40px;
+ 	background-color: #3498DB;
+ 	
+ 	color :white;
+ 	font-family: sans-serif;
+ 	font-size:16px;
+ 	border-radius: 5px;
+ 	border:1px solid lightblue;
+ 	margin:1%;
+
+ }
+ .modaltrigger {
+ 	width:70px;
+ 	height: 40px;
+ 	background-color: #3498DB;
+ 	
+ 	color :white;
+ 	font-family: sans-serif;
+ 	font-size:16px;
+ 	border-radius: 5px;
+ 	border:1px solid lightblue;
+ 	
+
+
+ }
+ 
+  @media only screen and (min-width:100px) and (max-width: 768px)
+  {
+
+ .modalDesign{
+ 	margin:10px;
+ 	width:auto;
+ }
+
+  }
